@@ -1,13 +1,31 @@
-/* Global */
 .splash {
+  position: relative;
   max-width: auto;
   padding: 0;
   margin: 0 auto;
-  height: 500px;
-  position: relative;
-  background-image: url("https://images.pexels.com/photos/3575854/pexels-photo-3575854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 1000px;
+  background-image: url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-position: center center;
   background-size: cover;
+}
+
+.splash-inner {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.splash-inner h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.splash-inner h2 {
+  font-size: 70px;
+  text-align: center;
 }
 
 /* Navigation */
@@ -40,6 +58,4 @@
 .navigation a:hover {
   color: goldenrod;
 }
-
-/* Splash */
 /*# sourceMappingURL=style.css.map */
