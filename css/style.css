@@ -122,4 +122,89 @@ h3 {
   font-size: 20px;
   line-height: 1.5;
 }
+
+/* Our Portfolio */
+.our-portfolio {
+  background-color: #dfe4ea;
+}
+
+.our-portfolio .box {
+  height: 450px;
+  width: 300px;
+  text-align: center;
+}
+
+.pic {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100%;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+.page-footer .container {
+  position: relative;
+  height: 100px;
+}
+
+.page-footer h5 {
+  position: absolute;
+  float: left;
+}
+
+.page-footer ul {
+  padding: 0;
+  position: absolute;
+  margin: 48px auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-footer ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.page-footer li {
+  font-size: 0;
+  color: white;
+}
+
+.page-footer i {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #00a8ff;
+}
+
+.fa-facebook-f {
+  background: #1e3799;
+}
+
+.fa-pinterest-p {
+  background: #c23616;
+}
+
+.fa-google-plus-g {
+  background: #e84118;
+}
+
+.page-footer i:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
 /*# sourceMappingURL=style.css.map */
